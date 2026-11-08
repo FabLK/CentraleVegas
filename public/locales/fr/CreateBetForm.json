@@ -1,0 +1,65 @@
+{
+  "steps": {
+    "basicInfo": "Infos de base",
+    "answers": "Réponses", 
+    "participants": "Participants"
+  },
+  "basicInfo": {
+    "title": "Titre du pari",
+    "titlePlaceholder": "Qui gagnera le match ?",
+    "titleError": "Le titre doit être rempli et ne pas dépasser 65 caractères",
+    "deadline": "Date limite pour parier",
+    "deadlineDialogTitle": "Définir la date et l'heure limite",
+    "timeLimit": "Heure limite",
+    "confirm": "Confirmer",
+    "deadlineError": "Veuillez sélectionner une date et heure limite",
+    "deadlineFutureError": "La date et l'heure limites doivent être dans le futur",
+    "invalidDateError": "Date invalide",
+    "invalidDateDescription": "La date et l'heure limites doivent être dans le futur"
+  },
+  "answers": {
+    "answerPlaceholder": "Réponse",
+    "addAnswer": "Ajouter une réponse",
+    "maxReached": "Maximum atteint",
+    "maxReachedDescription": "Vous ne pouvez pas ajouter plus de 6 réponses",
+    "initialMultiplier": "Multiplicateur initial",
+    "multiplierDescription": "Évoluera selon les paris placés"
+  },
+  "participants": {
+    "referee": "L'arbitre",
+    "refereeDescription": "Décide de la bonne réponse",
+    "chooseReferee": "Choisir un arbitre",
+    "excludedPlayers": "Joueurs exclus",
+    "excludedPlayersDescription": "Ils ne pourront pas parier",
+    "excludeUsers": "Exclure des utilisateurs",
+    "excludedUsersCount": "Utilisateurs exclus",
+    "searchPlaceholder": "Rechercher un utilisateur...",
+    "loadingUsers": "Chargement des utilisateurs...",
+    "noUsersFound": "Aucun utilisateur trouvé",
+    "enterNameToSearch": "Entrez un nom pour rechercher",
+    "browseUsers": "Ou parcourez la liste des utilisateurs disponibles",
+    "playersExcluded": "joueur",
+    "playersExcludedPlural": "joueurs",
+    "excluded": "exclu",
+    "excludedPlural": "exclus",
+    "close": "Fermer"
+  },
+  "navigation": {
+    "previous": "Précédent",
+    "cancel": "Annuler", 
+    "next": "Suivant",
+    "creating": "Création...",
+    "createBet": "Créer le pari"
+  },
+  "toasts": {
+    "notConnected": "Non connecté",
+    "notConnectedDescription": "Vous devez être connecté pour créer un pari",
+    "groupRequired": "Groupe requis",
+    "groupRequiredDescription": "Vous devez sélectionner un groupe pour créer un pari",
+    "invalidInfo": "Informations invalides",
+    "invalidInfoDescription": "Veuillez remplir correctement tous les champs obligatoires",
+    "betCreated": "Pari créé avec succès",
+    "betCreatedDescription": "Votre pari a été créé et est maintenant disponible",
+    "creationError": "Erreur lors de la création du pari"
+  }
+} 

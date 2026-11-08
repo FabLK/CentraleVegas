@@ -1,0 +1,18 @@
+{
+    "Rechercher un utilisateur...": "Search for a user...",
+    "Or":"Gold",
+    "Argent":"Silver",
+    "Bronze":"Bronze",
+    "Points totaux":"Total points",
+    "Taux de victoire":"Win rate",
+    "Nombre de paris":"Number of bets",
+    "Mise moyenne":"Average bet",
+    "Plus grosse mise":"Highest bet",
+    "Multiplicateur moyen":"Average multiplier",
+    "Classement":"Leaderboard",
+    "Aucun utilisateur trouvé":"No user found",
+    "Sélectionnez une salle pour voir le classement":"Select a group to see the leaderboard",
+    "Aucune salle disponible":"No group available",
+    "Chargement du classement...":"Loading leaderboard...",
+    "Aucune donnée de classement disponible":"No leaderboard data available"
+}

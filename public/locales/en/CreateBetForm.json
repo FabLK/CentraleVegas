@@ -1,0 +1,65 @@
+{
+  "steps": {
+    "basicInfo": "Basic Info",
+    "answers": "Answers", 
+    "participants": "Participants"
+  },
+  "basicInfo": {
+    "title": "Bet Title",
+    "titlePlaceholder": "Who will win the match?",
+    "titleError": "Title must be filled and not exceed 65 characters",
+    "deadline": "Betting deadline",
+    "deadlineDialogTitle": "Set date and time limit",
+    "timeLimit": "Time limit",
+    "confirm": "Confirm",
+    "deadlineError": "Please select a date and time limit",
+    "deadlineFutureError": "The date and time limit must be in the future",
+    "invalidDateError": "Invalid date",
+    "invalidDateDescription": "The date and time limit must be in the future"
+  },
+  "answers": {
+    "answerPlaceholder": "Answer",
+    "addAnswer": "Add an answer",
+    "maxReached": "Maximum reached",
+    "maxReachedDescription": "You cannot add more than 6 answers",
+    "initialMultiplier": "Initial multiplier",
+    "multiplierDescription": "Will evolve based on placed bets"
+  },
+  "participants": {
+    "referee": "The referee",
+    "refereeDescription": "Decides the correct answer",
+    "chooseReferee": "Choose a referee",
+    "excludedPlayers": "Excluded players",
+    "excludedPlayersDescription": "They won't be able to bet",
+    "excludeUsers": "Exclude users",
+    "excludedUsersCount": "Excluded users",
+    "searchPlaceholder": "Search for a user...",
+    "loadingUsers": "Loading users...",
+    "noUsersFound": "No users found",
+    "enterNameToSearch": "Enter a name to search",
+    "browseUsers": "Or browse the list of available users",
+    "playersExcluded": "player",
+    "playersExcludedPlural": "players",
+    "excluded": "excluded",
+    "excludedPlural": "excluded",
+    "close": "Close"
+  },
+  "navigation": {
+    "previous": "Previous",
+    "cancel": "Cancel", 
+    "next": "Next",
+    "creating": "Creating...",
+    "createBet": "Create bet"
+  },
+  "toasts": {
+    "notConnected": "Not connected",
+    "notConnectedDescription": "You must be logged in to create a bet",
+    "groupRequired": "Group required",
+    "groupRequiredDescription": "You must select a group to create a bet",
+    "invalidInfo": "Invalid information",
+    "invalidInfoDescription": "Please correctly fill in all required fields",
+    "betCreated": "Bet created successfully",
+    "betCreatedDescription": "Your bet has been created and is now available",
+    "creationError": "Error creating bet"
+  }
+} 

@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 219 65% 17%; /* #102648 */
+ 
+    --card: 0 0% 100%;
+    --card-foreground: 219 65% 17%;
+ 
+    --popover: 0 0% 100%;
+    --popover-foreground: 219 65% 17%;
+ 
+    --primary: 219 65% 17%; /* #102648 */
+    --primary-foreground: 0 0% 100%;
+ 
+    --secondary: 216 100% 95%; /* #fab600 */
+    --secondary-foreground: 219 65% 17%;
+ 
+    --muted: 219 65% 95%;
+    --muted-foreground: 219 65% 40%;
+ 
+    --accent: 216 100% 95%; /* custom */
+    --accent-foreground: 219 65% 17%;
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 219 65% 85%;
+    --input: 219 65% 85%;
+    --ring: 219 65% 17%;
+ 
+    --radius: 0.5rem;
+
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+ 
+  .dark {
+    --background: 219 65% 17%; /* #102648 */
+    --foreground: 0 0% 98%;
+ 
+    --card: 219 65% 17%;
+    --card-foreground: 0 0% 98%;
+ 
+    --popover: 219 65% 17%;
+    --popover-foreground: 0 0% 98%;
+ 
+    --primary: 43 100% 49%; /* #fab600 */
+    --primary-foreground: 219 65% 17%;
+ 
+    --secondary: 219 65% 25%;
+    --secondary-foreground: 0 0% 98%;
+ 
+    --muted: 219 65% 25%;
+    --muted-foreground: 219 65% 70%;
+ 
+    --accent: 43 100% 49%; /* #fab600 */
+    --accent-foreground: 219 65% 17%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+ 
+    --border: 219 65% 25%;
+    --input: 219 65% 25%;
+    --ring: 43 100% 49%;
+
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+  .border-gradient {
+    background: linear-gradient(var(--background) 0%, var(--background) 100%) padding-box,
+                linear-gradient(to bottom right, var(--primary) 0%, var(--primary)/30 100%) border-box;
+    border: 1px solid transparent;
+
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  /* Prevent zoom on input focus in mobile browsers */
+  input, textarea, select {
+    font-size: 16px; /* Minimum font size to prevent zoom on iOS */
+    max-height: 100%;
+  }
+}
+
+@keyframes shine {
+  0% {
+    transform: translateX(-100%) skewX(-12deg);
+  }
+  20% {
+    transform: translateX(100%) skewX(-12deg);
+  }
+  100% {
+    transform: translateX(100%) skewX(-12deg);
+  }
+}
+
+@layer utilities {
+  .animate-shine {
+    animation: shine 3s infinite;
+  }
+} 

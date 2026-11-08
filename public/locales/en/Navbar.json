@@ -1,0 +1,20 @@
+{
+  "Accueil": "Home",
+  "Classement": "Leaderboard", 
+  "Profil": "Profile",
+  "Déconnexion": "Logout",
+  "Aucun groupe": "No group",
+  "Connexion": "Login",
+  "Résultats des paris": "Betting Results",
+  "Montant total": "Total Amount",
+  "Marquer comme lus": "Mark as read",
+  "Demandes d'adhésion": "Membership requests",
+  "Pas de message": "No message",
+  "Accepter": "Accept",
+  "Refuser": "Decline", 
+  "Fermer": "Close",
+  "Menu": "Menu",
+  "Admin": "Admin",
+  "Utilisateur ajouté au groupe": "User added to group",
+  "points bloqués dans des paris": "points locked in bets"
+}

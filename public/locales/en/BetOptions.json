@@ -1,0 +1,14 @@
+{
+  "excluded_from_bet": "You are excluded from this bet",
+  "processing": "Processing...",
+  "select_winning_option": "Select the winning option",
+  "invalid_bet": "Invalid bet",
+  "minimum_bettors_required": "You must have at least 2 different bettors to decide the result. Delete it to release the points.",
+  "deleting": "Deleting...",
+  "delete_bet": "Delete bet",
+  "bet_deleted_success": "The bet has been successfully deleted",
+  "bet_deletion_error": "An error occurred while deleting the bet",
+  "recording": "Recording",
+  "loading_options": "Loading betting options...",
+  "pts": "pts"
+} 

@@ -1,0 +1,14 @@
+{
+  "excluded_from_bet": "Vous êtes exclu de ce pari",
+  "processing": "Traitement en cours...",
+  "select_winning_option": "Sélectionnez l'option gagnante",
+  "invalid_bet": "Pari invalide",
+  "minimum_bettors_required": "Vous devez avoir minimum 2 parieurs différents pour décider du résultat. Supprimez le pour relâcher les points.",
+  "deleting": "Suppression...",
+  "delete_bet": "Supprimer le pari",
+  "bet_deleted_success": "Le pari a été supprimé avec succès",
+  "bet_deletion_error": "Une erreur est survenue lors de la suppression du pari",
+  "recording": "Enregistrement",
+  "loading_options": "Loading betting options...",
+  "pts": "pts"
+} 

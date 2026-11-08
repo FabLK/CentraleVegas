@@ -1,0 +1,11 @@
+{
+    "Vous n'avez pas assez de jetons":"You don't have enough tokens",
+    "Vous n'avez pas de points disponibles pour parier. Créez des paris et gagnez 10% des points pariés":"You don't have any points available to bet. Create bets and win 10% of the points bet",
+    "Aucun point disponible":"No point available",
+    "Dépassement du solde disponible":"Exceeding the available balance",
+    "Traitement...":"Processing...",
+    "Parier":"Bet",
+    "Annuler":"Cancel",
+    "Multiplicateur":"Multiplier",
+    "Adapté à la mise pour éviter la triche":"Adapted to the bet to avoid cheating"
+}
