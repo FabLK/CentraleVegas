@@ -6,9 +6,9 @@ All the fun of prediction markets, none of the financial risk. You open a market
 
 Live: [centralevegas.com](https://centralevegas.com)
 
-<video src="https://github.com/FabLK/CentraleVegas/raw/main/docs/demo.mp4" poster="docs/demo-poster.jpg" width="100%" controls muted playsinline>
-  <a href="docs/demo.mp4">Watch the demo (mp4)</a>
-</video>
+[![Centrale Vegas demo](docs/demo.gif)](https://github.com/FabLK/CentraleVegas/blob/main/docs/demo.mp4)
+
+[Full demo (1 min)](https://github.com/FabLK/CentraleVegas/blob/main/docs/demo.mp4)
 
 ## How it works
 
